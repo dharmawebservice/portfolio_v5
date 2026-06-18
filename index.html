@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dharmendra Reddy M S — Systems Engineer & Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Dharmendra Reddy M S — Systems Engineer at TCS, Full-Stack Developer and AI/ML enthusiast." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dharmendra Reddy M S — Systems Engineer & Full-Stack Developer" />
+    <meta property="og:description" content="CS & AI graduate crafting scalable software, intelligent systems, and meaningful digital experiences." />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Prevent flash of wrong theme on load -->
+    <script>
+      (function () {
+        var theme = localStorage.getItem('theme');
+        if (!theme) theme = 'light';
+        if (theme === 'dark') document.documentElement.classList.add('dark');
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
