@@ -53,7 +53,12 @@
 
   .section-label::before {
     content: '';
-    @apply w-5 h-px bg-cobalt-light/50 dark:bg-signal/50;
+    width: 1.25rem;
+    height: 1px;
+    background-color: rgba(29, 78, 216, 0.5); /* cobalt-light @ 50% */
+  }
+  .dark .section-label::before {
+    background-color: rgba(62, 232, 184, 0.5); /* signal @ 50% */
   }
 
   .heading-xl {
@@ -69,8 +74,11 @@
     position: absolute;
     width: 26px;
     height: 26px;
-    @apply border-paper-ink dark:border-signal;
+    border-color: #16181c; /* paper-ink */
     transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .dark .bracket-corner {
+    border-color: #3ee8b8; /* signal */
   }
   .bracket-tl { top: 12px; left: 12px; border-top: 2px solid; border-left: 2px solid; }
   .bracket-tr { top: 12px; right: 12px; border-top: 2px solid; border-right: 2px solid; }
