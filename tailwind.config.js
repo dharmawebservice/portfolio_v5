@@ -51,7 +51,7 @@ export default {
       animation: {
         blink: 'blink 1s step-end infinite',
         scan: 'scan 3.2s ease-in-out infinite',
-        pulse-ring: 'pulse-ring 2s infinite',
+        'pulse-ring': 'pulse-ring 2s infinite',
         float: 'float 6s ease-in-out infinite',
         marquee: 'marquee 28s linear infinite',
       },
